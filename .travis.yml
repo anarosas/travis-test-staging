@@ -1,4 +1,4 @@
 language: ruby
 sudo: false
 install: true
-script: echo it works
+script: echo it really works
