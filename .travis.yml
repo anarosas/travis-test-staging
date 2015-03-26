@@ -1,6 +1,3 @@
 language: objective-c
-osx_image: beta-xcode6.2
 install: true
-script:
-  - echo it works again
-  - curl http://icanhazip.com
+script: echo hello world
