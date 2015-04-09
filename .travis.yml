@@ -1,3 +1,3 @@
 language: objective-c
 install: true
-script: echo hello world
+script: curl icanhazip.com
