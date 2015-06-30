@@ -1,4 +1,5 @@
 language: objective-c
+osx_image: xcode6.4
 install: true
 script:
   - curl icanhazip.com
