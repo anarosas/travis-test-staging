@@ -1,5 +1,11 @@
-language: objective-c
-osx_image: xcode6.4
+language: ruby
+sudo: required
 install: true
 script:
   - curl icanhazip.com
+env:
+  matrix:
+    - JOB=1
+    - JOB=2
+    - JOB=3
+    - JOB=4
