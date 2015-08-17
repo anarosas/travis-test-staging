@@ -1,9 +1,7 @@
 language: ruby
 sudo: required
+services:
+  - docker
 install: true
 script:
   - curl icanhazip.com
-env:
-  matrix:
-    - JOB=1
-    - JOB=2
