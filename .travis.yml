@@ -1,7 +1,6 @@
-language: ruby
-sudo: required
-services:
-  - docker
+language: objective-c
+osx_image: xcode7
 install: true
 script:
-  - curl icanhazip.com
+  - motion --version
+  - xctool --version
