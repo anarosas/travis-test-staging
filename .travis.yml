@@ -4,3 +4,6 @@ install: true
 script:
   - motion --version
   - xctool --version
+  - xcrun simctl list
+  - xctool --version
+  - sleep 5
