@@ -6,4 +6,4 @@ script:
   - xctool --version
   - xcrun simctl list
   - xctool --version
-  - sleep 5
+  - sleep 3
