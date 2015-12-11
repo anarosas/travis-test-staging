@@ -3,7 +3,7 @@ services:
     - docker
 sudo: required
 install: true
-script: sleep 15
+script: ruby -e 'sleep(60 + rand * 60 * 5)'
 env:
     matrix:
         - JOB=1
@@ -46,3 +46,63 @@ env:
         - JOB=38
         - JOB=39
         - JOB=40
+        - JOB=41
+        - JOB=42
+        - JOB=43
+        - JOB=44
+        - JOB=45
+        - JOB=46
+        - JOB=47
+        - JOB=48
+        - JOB=49
+        - JOB=50
+        - JOB=51
+        - JOB=52
+        - JOB=53
+        - JOB=54
+        - JOB=55
+        - JOB=56
+        - JOB=57
+        - JOB=58
+        - JOB=59
+        - JOB=60
+        - JOB=61
+        - JOB=62
+        - JOB=63
+        - JOB=64
+        - JOB=65
+        - JOB=66
+        - JOB=67
+        - JOB=68
+        - JOB=69
+        - JOB=70
+        - JOB=71
+        - JOB=72
+        - JOB=73
+        - JOB=74
+        - JOB=75
+        - JOB=76
+        - JOB=77
+        - JOB=78
+        - JOB=79
+        - JOB=80
+        - JOB=81
+        - JOB=82
+        - JOB=83
+        - JOB=84
+        - JOB=85
+        - JOB=86
+        - JOB=87
+        - JOB=88
+        - JOB=89
+        - JOB=90
+        - JOB=91
+        - JOB=92
+        - JOB=93
+        - JOB=94
+        - JOB=95
+        - JOB=96
+        - JOB=97
+        - JOB=98
+        - JOB=99
+        - JOB=100
