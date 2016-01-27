@@ -53,5 +53,3 @@ env:
     - JOB=8
     - JOB=9
     - JOB=10
-    - JOB=11
-    - JOB=12
