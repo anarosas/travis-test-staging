@@ -4,7 +4,7 @@ services:
 sudo: required
 install: true
 script:
-    - ruby -e 'sleep(4 + rand * 60)'
+    - ruby -e 'sleep(5 + rand * 60)'
 env:
   matrix:
     - JOB=1
