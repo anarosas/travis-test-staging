@@ -1,2 +1,1 @@
-:heart::heart::heart::heart:
-start 
+:heart::heart::heart:
